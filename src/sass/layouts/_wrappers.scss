@@ -1,0 +1,18 @@
+.wrapper {
+    max-width: $content-width;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    margin-top: 8px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background: $background-color;
+}

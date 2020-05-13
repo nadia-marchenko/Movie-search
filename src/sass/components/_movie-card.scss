@@ -1,0 +1,25 @@
+.star-rating {
+  background-image: url(../assets/icon-star.svg);
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+h6 {
+  text-align: center;
+  margin-top: 10px;
+}
