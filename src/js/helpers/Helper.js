@@ -1,6 +1,4 @@
-import Swiper from '../../../node_modules/swiper';
-
-const fetch = require('../../../node_modules/node-fetch');
+import Swiper from 'swiper';
 
 export default class Helper {
   static async fetchPost(url) {

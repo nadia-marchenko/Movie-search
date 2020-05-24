@@ -20,6 +20,6 @@ export default class PageComponent {
   init() {
     this.root.insertAdjacentElement('beforeend', this.header.init());
     this.root.insertAdjacentElement('beforeend', this.search.init());
-    this.root.insertAdjacentElement('beforeend', this.footer.init());
+    this.root.insertAdjacentElement('beforeend', this.footer.create());
   }
 }
